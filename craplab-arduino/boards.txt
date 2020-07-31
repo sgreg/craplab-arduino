@@ -1,0 +1,24 @@
+# CrapLab Development Boards
+#
+# Check https://github.com/sgreg/craplab-arduino for more information
+#
+
+################################################################################
+# RUDY
+# ATmega328P @12MHz external crystal
+#
+# Note that RUDY requires an external programmer to upload sketches
+#
+rudy.name=RUDY
+
+rudy.build.mcu=atmega328p
+rudy.build.f_cpu=12000000L
+rudy.build.board=RUDY_AVR
+rudy.build.core=arduino:arduino
+rudy.build.variant=arduino:standard
+
+rudy.upload.tool=avrdude
+rudy.upload.protocol=arduino
+rudy.upload.maximum_size=32256
+rudy.upload.maximum_data_size=2048
+

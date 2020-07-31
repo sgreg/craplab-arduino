@@ -1,0 +1,29 @@
+{
+  "packages": [
+    {
+      "name": "CrapLab Arduino",
+      "maintainer": "CrapLab",
+      "websiteURL": "https://craplab.fi/",
+      "email": "dev@craplab.fi",
+      "platforms": [
+        {
+          "name": "CrapLab Development Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/sgreg/craplab-arduino/master/craplab-arduino-1.0.0.tar.bz2",
+          "archiveFileName": "craplab-arduino-1.0.0.tar.bz2",
+          "checksum": "SHA-256:1378c212768f7989bd62d6d56f06a0b052350650f76612cd9fc91c0dc8adadcd",
+          "size": "500",
+          "boards": [
+            {
+              "name": "RUDY"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
